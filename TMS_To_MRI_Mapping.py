@@ -3,11 +3,9 @@ import os
 import nibabel as nb
 from glob import glob
 import numpy as np
-from os import listdir
 from os.path import isfile, join
 import sys
 import pandas as pd
-import mne
 from mne.transforms import apply_trans
 import openpyxl 
 import re
